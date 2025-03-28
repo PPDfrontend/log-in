@@ -1,0 +1,86 @@
+html, body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container{
+  width: 400px;
+  background: #f0f4f8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.347); 
+  text-align: center;
+  margin: 50px auto;
+}
+.header .text{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.underline {
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+  background: #009688;
+  margin: 0 auto 20px;
+}
+.inputs {
+  margin-bottom: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+.input input{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+.input input:focus{
+  border-color: #009688;
+}
+.forgot-password {
+  text-align: right;
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+}
+.submit-container{
+ margin-top: 20px; 
+}
+.submit {
+  background: #009688;
+  color: white;
+  padding: 12px;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit:hover{
+  background: #00796b;
+}
+
+
+.already-account {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.already-account a{
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.submit {
+  position: relative;
+  left: 8px;
+}
