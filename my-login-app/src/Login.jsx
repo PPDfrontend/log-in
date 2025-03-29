@@ -1,17 +1,17 @@
 import React from "react";
-import"./App.css";
+import "./App.css";
 
 function Login () {
     return (
-        <div className="container">
+        <div className="container1">
       <div className="header">
         <div className="text">Log In</div>
-        <div className="underline"></div>
+        <div className="underline1"></div>
       </div>
       <div className="inputs">
         <div className="input">
           
-          <input type="text" placeholder="Email"/> 
+          <input type="email" placeholder="Email"/> 
         </div>
       </div>
       <div className="inputs">
